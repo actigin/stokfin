@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stokfin Gizlilik Politikası</title><meta name="description" content="Stokfin uygulamasının hangi verileri nasıl işlediği."><link rel="icon" href="logo.svg"><style>
+:root{--bg:#f7f8fa;--fg:#1c2430;--muted:#5b6675;--card:#fff;--accent:#1f6feb;--line:#e3e7ee}
+@media (prefers-color-scheme:dark){:root{--bg:#11151b;--fg:#e8edf3;--muted:#9aa6b5;--card:#1a2029;--accent:#5b9cff;--line:#2a323d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 48px}a{color:var(--accent)}
+header{display:flex;align-items:center;gap:12px;margin-bottom:24px}header img{width:48px;height:48px;border-radius:12px}
+header a{color:inherit;text-decoration:none;font-weight:700;font-size:20px}
+h1{font-size:28px;line-height:1.25;margin:0 0 8px}h2{font-size:19px;margin:28px 0 6px}
+.muted{color:var(--muted)}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+ul{padding-left:20px}footer{margin-top:40px;border-top:1px solid var(--line);padding-top:16px;font-size:14px;color:var(--muted)}
+</style></head><body><main>
+<header><img src="logo.svg" alt=""><a href="index.html">Stokfin</a></header>
+
+<h1>Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 26.10.2026</p>
+<p>Stokfin, Pixel Fin tarafından geliştirilen bir stok ve barkod uygulamasıdır. Bu politika, uygulamanın hangi verileri işlediğini ve bunları nasıl kontrol edebileceğinizi açıklar.</p>
+
+<h2>1. Cihazınızda kalan veriler</h2>
+<p>Ürünleriniz, stok miktarları, sayım oturumları, stok hareketleri ve işletme profiliniz cihazınızdaki yerel veritabanında saklanır. Hesap açmadığınız sürece bu veriler Stokfin sunucularına gönderilmez.</p>
+
+<h2>2. Stokfin hesabı (isteğe bağlı)</h2>
+<p>Hesap açarsanız e-posta adresiniz, adınız, işletme adınız ve onay zamanınız Stokfin'in Supabase (Supabase Inc.) üzerindeki sunucularında saklanır. Pro sürümde işletme verilerinizin yedeği de hesabınıza bağlı olarak saklanır. Google veya Apple ile girişte bu sağlayıcıdan yalnızca kimlik doğrulama belirteci, adınız ve e-posta adresiniz alınır.</p>
+
+<h2>3. Kamera</h2>
+<p>Kamera yalnızca barkod/QR okumak için, cihaz üzerinde kullanılır. Görüntü kaydedilmez ve paylaşılmaz.</p>
+
+<h2>4. Yerel ağ (PC Barkod Köprüsü)</h2>
+<p>Bu özelliği açtığınızda telefonunuz okuttuğunuz barkodları aynı Wi-Fi ağındaki bilgisayarınıza gönderir. Veri internete çıkmaz ve isteğe bağlı erişim koduyla korunabilir.</p>
+
+<h2>5. Google E-Tablolar aktarımı (Pro, isteğe bağlı)</h2>
+<p>"Google ile Bağlan" seçeneğini kullanırsanız Stokfin, Google hesabınızdan yalnızca <code>drive.file</code> iznini ister. Bu izinle Stokfin sadece kendi oluşturduğu "Stokfin Stok Listesi" e-tablosunu oluşturup güncelleyebilir; Google Drive'ınızdaki diğer dosyaları göremez, okuyamaz ve değiştiremez.</p>
+<ul>
+<li>Stok listeniz (ürün adı, barkod, kategori, miktar, fiyat vb.) doğrudan cihazınızdan Google'a, sizin Google hesabınızdaki tabloya gönderilir; Stokfin sunucularından geçmez ve orada saklanmaz.</li>
+<li>Google erişim belirteci yalnızca cihazınızda, bu aktarımı yapmak için kullanılır.</li>
+<li>Bağlantıyı uygulamadan ("Bağlantıyı kaldır") veya Google hesabınızın <a href="https://myaccount.google.com/connections">Üçüncü taraf bağlantıları</a> sayfasından istediğiniz an kaldırabilirsiniz. Tablo Drive'ınızda kalır, dilerseniz silebilirsiniz.</li>
+</ul>
+<p>Stokfin'in Google API'lerinden aldığı bilgileri kullanması ve başka uygulamalara aktarması, Sınırlı Kullanım (Limited Use) koşulları dahil <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uygundur. Bu veriler reklam amacıyla kullanılmaz, satılmaz ve yapay zekâ modellerinin eğitiminde kullanılmaz.</p>
+
+<h2>6. Satın alımlar</h2>
+<p>Abonelik ve ömür boyu lisans işlemleri Google Play / App Store üzerinden yapılır ve RevenueCat (RevenueCat Inc.) aracılığıyla doğrulanır. RevenueCat'e anonim bir uygulama kimliği (hesap açtıysanız hesap kimliğiniz) ve satın alma bilgileri iletilir; kart bilginiz iletilmez.</p>
+
+<h2>7. Reklamlar (ücretsiz sürüm)</h2>
+<p>Ücretsiz sürümde Google AdMob reklamları gösterilir. AdMob, reklam kimliği gibi cihaz bilgilerini kullanabilir. Pro sürümde reklam gösterilmez.</p>
+
+<h2>8. Yurt dışına aktarım ve saklama süresi</h2>
+<p>Supabase, RevenueCat ve Google hizmetlerinin sunucuları yurt dışında bulunabilir. Hesap verileri hesabınız silinene kadar saklanır; cihazdaki veriler uygulamayı silmenizle birlikte silinir.</p>
+
+<h2 id="hesap-silme">9. Hesap ve veri silme</h2>
+<div class="card">
+<p style="margin-top:0">Hesabınızı ve hesaba bağlı tüm verileri (profil, işletme kayıtları, bulut yedekleri) iki yolla silebilirsiniz:</p>
+<ul>
+<li><b>Uygulamadan:</b> Ayarlar → Hesap → "Hesabı kalıcı olarak sil". Silme işlemi anında ve kalıcı olarak yapılır.</li>
+<li><b>E-postayla:</b> Uygulamaya erişiminiz yoksa, hesabınızın e-posta adresinden pixelfinst@gmail.com adresine "Hesap silme talebi" konulu bir e-posta gönderin. Talebiniz en geç 30 gün içinde yerine getirilir.</li>
+</ul>
+<p style="margin-bottom:0">Cihazınızdaki yerel veriler uygulamayı kaldırdığınızda silinir. Google E-Tablolar'daki tablo sizin Drive'ınızdadır ve sizin kontrolünüzdedir.</p>
+</div>
+
+<h2>10. Çocuklar</h2>
+<p>Stokfin işletmelere yönelik bir uygulamadır ve 13 yaşın altındaki çocuklara yönelik değildir.</p>
+
+<h2>11. Haklarınız ve iletişim</h2>
+<p>KVKK md. 11 ve GDPR kapsamındaki bilgi talep etme, düzeltme, silme ve itiraz haklarınız için: pixelfinst@gmail.com.</p>
+
+<h2>12. Değişiklikler</h2>
+<p>Bu politika güncellenirse yeni sürüm bu sayfada yayınlanır ve "Son güncelleme" tarihi değiştirilir.</p>
+<footer>© 2026 Pixel Fin · <a href="index.html">Ana sayfa</a> · <a href="privacy.html">Gizlilik Politikası</a> · <a href="privacy.html#hesap-silme">Hesap ve veri silme</a> · İletişim: pixelfinst@gmail.com</footer>
+</main></body></html>
